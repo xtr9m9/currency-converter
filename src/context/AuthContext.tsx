@@ -3,6 +3,8 @@ import type { ReactNode } from 'react';
 
 import { AuthContext } from './useAuth';
 
+//
+
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(() => {
     return localStorage.getItem('isAuthenticated') === 'true';
