@@ -2,6 +2,8 @@ import { AppBar, Toolbar, Button, Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/useAuth';
 
+// layout-обертка для страниц
+
 export const AppLayout = ({ children }: { children: React.ReactNode }) => {
   const { isAuthenticated, logout } = useAuth();
 
