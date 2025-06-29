@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// запрос на сервер
 export interface CurrencyRates {
   [crypto: string]: {
     [fiat: string]: number;
