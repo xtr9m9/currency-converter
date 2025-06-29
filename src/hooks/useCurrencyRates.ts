@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { fetchCurrencyRates } from '../api/currencyApi';
 import type { CurrencyRate } from '../api/types';
 
+// хук для валют
+
 export const useCurrencyRates = () => {
   const [rates, setRates] = useState<CurrencyRate[]>([]);
   const [loading, setLoading] = useState(true);

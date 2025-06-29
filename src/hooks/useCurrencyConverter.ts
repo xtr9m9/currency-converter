@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchCurrencyRates } from '../api/currencyApi';
 
+// хук для конвертера
 export interface CurrencyRate {
   USD: number;
 }
