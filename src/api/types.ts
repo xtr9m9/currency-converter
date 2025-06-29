@@ -1,3 +1,5 @@
+//
+
 export interface CurrencyRate {
   crypto: string;
   usdRate: string;
