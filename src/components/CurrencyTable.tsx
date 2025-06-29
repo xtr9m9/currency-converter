@@ -24,6 +24,8 @@ interface CurrencyTableProps {
   getRateChangeColor: (currentRate: string, previousRate?: string) => string;
 }
 
+// feat: добавлен компонент таблицей валют
+
 // Это фейковый пример данных
 const mockChartData = Array.from({ length: 24 }, (_, i) => ({
   time: `${i}:00`,

@@ -6,6 +6,8 @@ interface Props {
   onChange: (newPage: number) => void;
 }
 
+// feat: добавлен компонент пагинацией
+
 export const CurrencyPagination: React.FC<Props> = ({
   count,
   page,

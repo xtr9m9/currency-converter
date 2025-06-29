@@ -14,6 +14,8 @@ interface Props {
   onRefresh: () => void;
 }
 
+// feat: добавлен компонент заголовка с отображением курсов и кнопкой обновлени
+
 export const CurrencyHeader: React.FC<Props> = ({
   lastUpdated,
   loading,

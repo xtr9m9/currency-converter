@@ -14,6 +14,8 @@ interface CurrencySortProps {
   handleSort: (event: React.MouseEvent<unknown>) => void;
 }
 
+// feat: добавлен компонент сортировкой
+
 export const CurrencySortByPage: FC<CurrencySortProps> = ({
   rowsPerPage,
   handleChangeRowsPerPage,
